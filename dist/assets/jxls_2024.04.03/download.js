@@ -1,0 +1,1 @@
+import{download}from"../../scripts/download.js";download();
