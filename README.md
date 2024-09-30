@@ -42,14 +42,14 @@
    - 修改 model 中模型文件（file_url）和模型纹理（material_textures）路径
    - 修改 panorama 中图片路径
   
-
 ## 执行项目
 - 修改 index.tsx 里 `loadWork("./assets/jxls_2024.07.21/work.json");`，切换为需要运行的项目，读取对应的 work.json
 - package.json 中移除 `"type": "module",`
 - 项目根目录下执行 `npm run dev`
 
+## 关于 work.json
+[work 的使用限制](https://developers.realsee.com/docs/#/docs/five/web/tutorial/vanilla/1.displaying-work?id=work-%e7%9a%84%e4%bd%bf%e7%94%a8%e9%99%90%e5%88%b6)
 
-   
 # Five 快速上手使用 [Five Quick Start]
 
 Five 提供了快速上手体验的项目生成工具，您可以通过他熟悉 Five 的功能以及尝试基于 Five 开发功能。
