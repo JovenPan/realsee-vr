@@ -140,9 +140,9 @@ const App: React.FC = () => {
   }, []);
 
   React.useEffect(() => {
-    loadWork("./assets/jxls_2024.04.03/work.json");
+    // loadWork("./assets/jxls_2024.04.03/work.json");
     // loadWork("./assets/jxls_2024.07.21/work.json");
-    // loadWork("./assets/ysy_2024.09.28/work.json");
+    loadWork("./assets/ysy_2024.09.28/work.json");
   }, []);
 
   if (work) {
