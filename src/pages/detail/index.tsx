@@ -1,5 +1,5 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
 import { Five, Mode, State, Work, parseWork } from "@realsee/five";
 import {
   createFiveProvider,
@@ -130,7 +130,8 @@ const PanoPanel: React.FC = () => {
   );
 };
 
-const App: React.FC = () => {
+const Detail: React.FC = () => {
+  const { projectName } = useParams();
   const [work, setWork] = React.useState<Work>();
 
   const loadWork = React.useCallback((url: string) => {
@@ -140,9 +141,7 @@ const App: React.FC = () => {
   }, []);
 
   React.useEffect(() => {
-    // loadWork("./assets/jxls_2024.04.03/work.json");
-    // loadWork("./assets/jxls_2024.07.21/work.json");
-    loadWork("./assets/ysy_2024.09.28/work.json");
+    loadWork(`./assets/${projectName}/work.json`);
   }, []);
 
   if (work) {
@@ -161,4 +160,4 @@ const App: React.FC = () => {
   return null;
 };
 
-ReactDOM.render(<App></App>, document.getElementById("app"));
+export default Detail;

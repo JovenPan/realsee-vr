@@ -4,10 +4,10 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   context: __dirname,
-  entry: "./index.tsx",
+  entry: "./src/app.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index.bundle.js",
+    filename: "app.bundle.js",
   },
   mode: "production",
   module: {
@@ -42,7 +42,7 @@ module.exports = {
       ],
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "index.html"),
+      template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
   ],
