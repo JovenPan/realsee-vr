@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { PROJECT_LIST } from "../../common/constant";
 
 function List() {
   return (
     <div>
       <h2>List Page</h2>
-      <Link to="/jxls_2024.04.03">jxls_2024.04.03</Link>
-      <Link to="/jxls_2024.07.21">jxls_2024.07.21</Link>
-      <Link to="/ysy_2024.09.28">ysy_2024.09.28</Link>
+      {PROJECT_LIST.map((project) => (
+        <Link to={`/${project}`} key={project}>
+          {project}
+        </Link>
+      ))}
     </div>
   );
 }

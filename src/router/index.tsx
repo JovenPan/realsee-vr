@@ -5,13 +5,12 @@ import Detail from "../pages/detail";
 
 const router = createHashRouter([
   {
-    path: "/",
-    element: <List />,
-  },
-
-  {
-    path: "/:projectName",
+    path: "/:projectKey",
     element: <Detail />,
+  },
+  {
+    path: "*",
+    element: <List />,
   },
 ]);
 

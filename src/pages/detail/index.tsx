@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { Five, Mode, State, Work, parseWork } from "@realsee/five";
 import {
   createFiveProvider,
@@ -7,6 +7,7 @@ import {
   useFiveCurrentState,
   useFiveWork,
 } from "@realsee/five/react";
+import { PROJECT_LIST } from "../../common/constant";
 
 const FiveProvider = createFiveProvider({
   imageOptions: { size: 1024 },
@@ -131,7 +132,6 @@ const PanoPanel: React.FC = () => {
 };
 
 const Detail: React.FC = () => {
-  const { projectName } = useParams();
   const [work, setWork] = React.useState<Work>();
 
   const loadWork = React.useCallback((url: string) => {
@@ -140,8 +140,16 @@ const Detail: React.FC = () => {
       .then((data) => setWork(parseWork(data)));
   }, []);
 
+  const { projectKey = "" } = useParams();
+  const navigate = useNavigate();
+
   React.useEffect(() => {
-    loadWork(`./assets/${projectName}/work.json`);
+    if (PROJECT_LIST.indexOf(projectKey) == -1) {
+      navigate("/");
+      return;
+    }
+
+    loadWork(`./assets/${projectKey}/work.json`);
   }, []);
 
   if (work) {
