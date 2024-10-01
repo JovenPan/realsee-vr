@@ -1,19 +1,5 @@
 {
-  "_signature": "QUAacz4AxbmKJa/ukdrUUGGOUKtkc/Fpe82qyH7aftEQEyvvynIXjcNHlCpydhC7ejPX9fd1z2xcjxA2FVTqaL4SAwiprNZ99/2Wk28ZZ/Ko5fmoGba/YMzvLyxLpeSUDYL0ODou+Ua3gvLlioxtpQCiB1AJOdo5NMAusuNnh9E=",
-  "allow_hosts": [
-    "share.3dvr.pro",
-    "rsvr.cn",
-    "realsee.com",
-    "realsee.cn",
-    "rushivr.cn",
-    "rushivr.com"
-  ],
-  "basic_code": "80jd6oMO21wgX3BvxY",
-  "certificate": "-----BEGIN CERTIFICATE-----\nMIIEMzCCAhsCCQDYAS/7ATZRmTANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMC\nQ04xEDAOBgNVBAgMB0JlaWppbmcxEDAOBgNVBAcMB0JlaWppbmcxFDASBgNVBAoM\nC2xpYW5qaWEuY29tMRAwDgYDVQQLDAdSZWFsc2VlMREwDwYDVQQDDAhIYXJkd2Fy\nZTElMCMGCSqGSIb3DQEJARYWbml1aGFpcWluZ0BsaWFuamlhLmNvbTAeFw0yMTA5\nMTAwNTIwMDBaFw0zMTA5MDgwNTIwMDBaMIGmMQswCQYDVQQGEwJDTjEQMA4GA1UE\nCAwHQmVpSmluZzEQMA4GA1UEBwwHQmVpSmluZzEQMA4GA1UECgwHUmVhbHNlZTEZ\nMBcGA1UECwwQUmVhbHNlZUFwcEdldHdheTEgMB4GA1UEAwwXYXBwLWdhdGV3YXku\ncmVhbHNlZS5jb20xJDAiBgkqhkiG9w0BCQEWFWRldmVsb3BlckByZWFsc2VlLmNv\nbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuv/y3Ezsy/wh3LCA8vomPbgI\nSO9iO5kyR+oAetklD+epMU6J/ZbvTDEomZxuS5iyyKGBupzAh2ZFLIy7tsE71Vx1\nIIvT7Kdyq66lMU4YzdrpKUcxv7oOQnO8DA1orKluNa4jkyXBywHKs/Q+20LVc+RD\ngKXqFGJUdo8mAxEScs0CAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAkMxsU4VLPd4J\n0rElBNBIyqPtvnlTs6VkhIK0l4oM58wtDKc1uG9UPSX5j29NguZM6LOe0jCsU2Vg\nEpUseMWQjx4o2yBg7MokQyjWc1zu6PppKhQ+RqHQy/biJ2zsIMpX3oMASXffvnW5\nn4Bjyo1JdDJiLm1fLvLlVVxQoraJD+rtpqWDEYixGVREUo5OIL5Y5dVjkHG2r9RQ\nQuu3yEiyr9gAW8yhz3YR6/sJ6boyGK8NC0v8Jih7NnCdT+9ML+3jn3P5F3TeXdSf\nVeYIm5oWAOTe3AjjKP8ARMb2RYACjg80/AcowD/dvRRjbwQmyucUNug2pXJynXpD\nNfx1IBmUmzSAT1Z5yNuY/f3VRBJvmIQ6Jpmef+g0/wUJpyS4SObguItyYlFPLqRH\nK1oKqNX/uV0GWWEQl6Lml986TzlHxc4ljtHBhjzlKYIYYZLWWipk4JiB8hxJcTK+\ncrgvclEQSxFlmAyoqxYFClrOOsPqZJdBhDTvoUWnnWuJLQt7DLHpyInp+S75Gg3o\n0zgHpt9m26B3YbjQGYMQlYmhl2VLQa+Ey0W8UZQXLcTvoRT4p+8crqr6cNNsxCyZ\nm08vBbEMIMvhBeLQvpM75oaMBmelegipFl2eelxVIHdGJWoyJSZQUdXN0uSidhZp\nI7AIgzhqK1Ku/IXK0OSXJonn+/9X/VI=\n-----END CERTIFICATE-----",
   "create_time": "2024-07-21 14:17:00",
-  "device_type": 1,
-  "expire_at": "1727713335903",
-  "from_type": "vr",
   "initial": {
     "fov": 90,
     "heading": 0,
@@ -21,7 +7,6 @@
     "longitude": 0,
     "pano_index": 0
   },
-  "is_active": true,
   "model": {
     "file_url": "assets/jxls_2024.07.21/model/auto3d.at3d",
     "layers": null,
@@ -609,8 +594,6 @@
       }
     ]
   },
-  "picture_url": "http://vr-public.rscdn.cn/release/screenshot/cyclops-vEY8ZpG3PQGV7R9K/184343ec9cd9678f8a9595834756b3b3/1721542621_0/pc0_1SkhFBrnQ.jpg",
-  "project_id": "cyclops-vEY8ZpG3PQGV7R9K",
-  "resource_code": "Xo876klZ4PCNERgs3x",
-  "title_picture_url": "http://vr-public.rscdn.cn/release/screenshot/cyclops-vEY8ZpG3PQGV7R9K/184343ec9cd9678f8a9595834756b3b3/1721542621_0/pc1_02DlChvxe.jpg"
+  "picture_url": "assets/jxls_2024.07.21/preview_0.jpg",
+  "title_picture_url": "assets/jxls_2024.07.21/preview_1.jpg"
 }

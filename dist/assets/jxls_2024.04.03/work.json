@@ -1,13 +1,6 @@
 {
-  "user_id": 1000000026014073,
-  "is_open": "0",
-  "project_id": "auto3d-knLsZ3gCg4-JCf7YZvZ7Qo",
   "name": "贝壳·如视 | 真实，如你所视",
-  "is_active": true,
-  "title": "8f0a51660d76ec821e54161cf52348b4",
-  "description": "",
-  "picture_url": "https://vrlab-public.ljcdn.com/release/screenshot/auto3d-knLsZ3gCg4-JCf7YZvZ7Qo/8f0a51660d76ec821e54161cf52348b4/1712108039_7/pc0_9rMHEffyY.jpg",
-  "picture_checksum": "0a87ebffe81bf349a3d0f89f08940533",
+  "picture_url": "assets/jxls_2024.04.03/preview_0.jpg",
   "initial": {
     "pano_index": 7,
     "heading": 0,
@@ -17,52 +10,22 @@
     "flag_position": [0.42867997109999995, -1.3389614147042725, 6.0788291786],
     "pano": 7
   },
-  "machine_id": "PHBBC00419",
-  "machine_version": "3",
-  "title_picture_url": "http://vrlab-public.ljcdn.com/release/screenshot/auto3d-knLsZ3gCg4-JCf7YZvZ7Qo/8f0a51660d76ec821e54161cf52348b4/1712108039_7/pc1_aOEhSvi0X_1.jpg",
-  "title_picture_checksum": "f5548daede9b1630731636bbd7e205f9",
-  "house_layout": {
-    "bedroom_amount": 3,
-    "parlor_amount": 1,
-    "cookroom_amount": 1,
-    "toilet_amount": 2
-  },
-  "standard_floor_plan_url": "",
-  "standard_floor_plan_checksum": "",
+  "title_picture_url": "assets/jxls_2024.04.03/preview_1.jpg",
   "hierarchy_floor_plan": [
     {
-      "url": "https://vrlab-public.ljcdn.com/release/vrcustomer/hierarchy_0_f7e203f6-d536-4257-96dc-f8c89e109075.png",
+      "url": "assets/jxls_2024.04.03/floor_plan.jpg",
       "index": 0,
       "checksum": "fc30947514f8479e309387b1a7245eef"
     }
   ],
   "outline_floor_plan": [
     {
-      "url": "https://vrlab-public.ljcdn.com/release/vrcustomer/outline_0_f7e203f6-d536-4257-96dc-f8c89e109075.png",
+      "url": "assets/jxls_2024.04.03/floor_plan_outline.jpg",
       "index": 0,
       "checksum": "1a5d536239ff2f93d0e6cbb35e4379c2"
     }
   ],
-  "auto_floor_plan_url": "",
-  "auto_floor_plan_checksum": "",
-  "status": 1,
-  "floor_plan_type": 0,
-  "editor_type": 2,
-  "panorama_url": "",
-  "from_type": "vr",
   "create_time": "2024年04月03日",
-  "user_identifier": "",
-  "create_timestamp": "1712142257",
-  "modify_timestamp": "1712151736",
-  "is_ai_design": "0",
-  "work_code": "OWaK3jP4a7b9VPy4",
-  "house_info": {
-    "relation_id": 57597060,
-    "city_id": 330100,
-    "source": "ALLIANCE",
-    "house_id": "0",
-    "house_code": "103132115455"
-  },
   "model": {
     "file_url": "assets/jxls_2024.04.03/model/auto3d.at3d",
     "material_textures": [
@@ -700,8 +663,5 @@
       "modify_timestamp": "0",
       "work_code": "OWaK3jP4a7b9VPy4"
     }
-  ],
-  "config": {
-    "notTextureResize": true
-  }
+  ]
 }

@@ -37,10 +37,11 @@
    - package.json 中添加 `"type": "module",`
    - 在项目目录（如 jxls_2024.04.03）下执行 `node ./download.js`，自动创建 panorama、model 目录并下载相关资源
 4. 修改 work.json 内容
-   - 去掉 base_url 字段
+   - 只保留 create_time、initial、model、name、observers、panorama、picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 字段
    - 去掉 model.material_base_url 字段
    - 修改 model 中模型文件（file_url）和模型纹理（material_textures）路径
    - 修改 panorama 中图片路径
+   - 修改 picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 路径
   
 ## 执行项目
 - 修改 index.tsx 里 `loadWork("./assets/jxls_2024.07.21/work.json");`，切换为需要运行的项目，读取对应的 work.json
@@ -49,9 +50,10 @@
 
 ## 关于 work.json
 [work 的使用限制](https://developers.realsee.com/docs/#/docs/five/web/tutorial/vanilla/1.displaying-work?id=work-%e7%9a%84%e4%bd%bf%e7%94%a8%e9%99%90%e5%88%b6)
-- five
-  - index-cracked.js 为破解版，绕过了使用限制。主要原理为：取 location.hostname 值的地方都改为 'localhost'
-  - index-original.js 为原版，在开发环境可以正常运行，但使用域名访问时则报错
+- /five
+  - /index-cracked.js 为破解版，绕过了使用限制。主要原理为：取 location.hostname 值的地方都改为 'localhost'
+  - /index-original.js 为原版，在开发环境可以正常运行，但使用域名访问时则报错
+
 
 # Five 快速上手使用 [Five Quick Start]
 
