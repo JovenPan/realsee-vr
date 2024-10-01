@@ -1,5 +1,19 @@
 {
+  "allow_hosts": [
+    "github.io",
+    "share.3dvr.pro",
+    "rsvr.cn",
+    "realsee.com",
+    "realsee.cn",
+    "rushivr.cn",
+    "rushivr.com"
+  ],
+  "basic_code": "806x7yMl4wVoGMdJLv",
+  "certificate": "-----BEGIN CERTIFICATE-----\nMIIEMzCCAhsCCQDYAS/7ATZRmTANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMC\nQ04xEDAOBgNVBAgMB0JlaWppbmcxEDAOBgNVBAcMB0JlaWppbmcxFDASBgNVBAoM\nC2xpYW5qaWEuY29tMRAwDgYDVQQLDAdSZWFsc2VlMREwDwYDVQQDDAhIYXJkd2Fy\nZTElMCMGCSqGSIb3DQEJARYWbml1aGFpcWluZ0BsaWFuamlhLmNvbTAeFw0yMTA5\nMTAwNTIwMDBaFw0zMTA5MDgwNTIwMDBaMIGmMQswCQYDVQQGEwJDTjEQMA4GA1UE\nCAwHQmVpSmluZzEQMA4GA1UEBwwHQmVpSmluZzEQMA4GA1UECgwHUmVhbHNlZTEZ\nMBcGA1UECwwQUmVhbHNlZUFwcEdldHdheTEgMB4GA1UEAwwXYXBwLWdhdGV3YXku\ncmVhbHNlZS5jb20xJDAiBgkqhkiG9w0BCQEWFWRldmVsb3BlckByZWFsc2VlLmNv\nbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuv/y3Ezsy/wh3LCA8vomPbgI\nSO9iO5kyR+oAetklD+epMU6J/ZbvTDEomZxuS5iyyKGBupzAh2ZFLIy7tsE71Vx1\nIIvT7Kdyq66lMU4YzdrpKUcxv7oOQnO8DA1orKluNa4jkyXBywHKs/Q+20LVc+RD\ngKXqFGJUdo8mAxEScs0CAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAkMxsU4VLPd4J\n0rElBNBIyqPtvnlTs6VkhIK0l4oM58wtDKc1uG9UPSX5j29NguZM6LOe0jCsU2Vg\nEpUseMWQjx4o2yBg7MokQyjWc1zu6PppKhQ+RqHQy/biJ2zsIMpX3oMASXffvnW5\nn4Bjyo1JdDJiLm1fLvLlVVxQoraJD+rtpqWDEYixGVREUo5OIL5Y5dVjkHG2r9RQ\nQuu3yEiyr9gAW8yhz3YR6/sJ6boyGK8NC0v8Jih7NnCdT+9ML+3jn3P5F3TeXdSf\nVeYIm5oWAOTe3AjjKP8ARMb2RYACjg80/AcowD/dvRRjbwQmyucUNug2pXJynXpD\nNfx1IBmUmzSAT1Z5yNuY/f3VRBJvmIQ6Jpmef+g0/wUJpyS4SObguItyYlFPLqRH\nK1oKqNX/uV0GWWEQl6Lml986TzlHxc4ljtHBhjzlKYIYYZLWWipk4JiB8hxJcTK+\ncrgvclEQSxFlmAyoqxYFClrOOsPqZJdBhDTvoUWnnWuJLQt7DLHpyInp+S75Gg3o\n0zgHpt9m26B3YbjQGYMQlYmhl2VLQa+Ey0W8UZQXLcTvoRT4p+8crqr6cNNsxCyZ\nm08vBbEMIMvhBeLQvpM75oaMBmelegipFl2eelxVIHdGJWoyJSZQUdXN0uSidhZp\nI7AIgzhqK1Ku/IXK0OSXJonn+/9X/VI=\n-----END CERTIFICATE-----",
   "create_time": "2024-09-28 15:31:35",
+  "device_type": 1,
+  "expire_at": "1727664948325",
+  "from_type": "vr",
   "initial": {
     "fov": 90,
     "heading": 0,
@@ -8,6 +22,7 @@
     "longitude": 4.591328790911376,
     "pano_index": 16
   },
+  "is_active": true,
   "model": {
     "file_url": "assets/ysy_2024.09.28/model/auto3d.at3d",
     "layers": null,
@@ -514,6 +529,8 @@
       }
     ]
   },
-  "picture_url": "assets/ysy_2024.09.28/preview_0.jpg",
-  "title_picture_url": "assets/ysy_2024.09.28/preview_1.jpg"
+  "picture_url": "http://vr-public.rscdn.cn/release/screenshot/cyclops-Rk3OMA3y57NZx5dl/8722bd6aae8233f50549d768108f710d/1727659195_16/pc0_9260tyx1A.jpg",
+  "project_id": "cyclops-Rk3OMA3y57NZx5dl",
+  "resource_code": "Xo87arkGV2fNERgs3x",
+  "title_picture_url": "http://vr-public.rscdn.cn/release/screenshot/cyclops-Rk3OMA3y57NZx5dl/8722bd6aae8233f50549d768108f710d/1727659195_16/pc1_8z70EmocJ.jpg"
 }
