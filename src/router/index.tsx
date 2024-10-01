@@ -7,10 +7,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <List />,
+    errorElement: <List />,
   },
   {
     path: "/:projectName",
     element: <Detail />,
+    errorElement: <List />,
+  },
+  {
+    path: "*",
+    element: <List />,
+    errorElement: <List />,
   },
 ]);
 
