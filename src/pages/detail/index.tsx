@@ -8,6 +8,7 @@ import {
   useFiveWork,
 } from "@realsee/five/react";
 import { PROJECT_LIST } from "../../common/constant";
+import "./index.less";
 
 const FiveProvider = createFiveProvider({
   imageOptions: { size: 1024 },
@@ -158,7 +159,7 @@ const Detail: React.FC = () => {
         initialWork={work}
         ref={(ref) => Object.assign(window, { five: ref?.five })}
       >
-        <div className="layout">
+        <div className="layout div">
           <Viewport />
           <Controller />
         </div>
