@@ -40,6 +40,7 @@
    - 只保留 create_time、initial、model、name、observers、panorama、picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 字段
    - 去掉 model.material_base_url 字段
    - 修改 model 中模型文件（file_url）和模型纹理（material_textures）路径
+   - 去掉 panorama.base_url 字段
    - 修改 panorama 中图片路径
    - 修改 picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 路径
 5. 在 src/common/constant 中添加项目信息 projectKey

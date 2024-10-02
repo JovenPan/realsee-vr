@@ -1,0 +1,648 @@
+{
+  "user_id": 1000000026668195,
+  "is_open": "0",
+  "project_id": "auto3d-4CUTU9fYxkUBpxeE4ouuUE",
+  "name": "贝壳·如视 | 真实，如你所视",
+  "is_active": true,
+  "title": "6cb434c7774a487c87d978619972f0ac",
+  "description": "",
+  "picture_url": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/screenshot/1600224173_3/pc0_i77GQPHbr.jpg",
+  "picture_checksum": "192533b4a143c640f898e1ea8ba2a0c4",
+  "initial": {
+    "pano_index": 3,
+    "heading": 0,
+    "longitude": 2.4912280701754206,
+    "latitude": 0,
+    "fov": 95,
+    "flag_position": [],
+    "pano": 3
+  },
+  "machine_id": "RA03150",
+  "machine_version": "3",
+  "title_picture_url": "http://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/screenshot/1600224173_3/pc1_Av9From1h_1.jpg",
+  "title_picture_checksum": "bb1482d8d604a529f746fd6d6c1fb466",
+  "house_layout": {
+    "bedroom_amount": 3,
+    "parlor_amount": 1,
+    "cookroom_amount": 1,
+    "toilet_amount": 1
+  },
+  "standard_floor_plan_url": "",
+  "standard_floor_plan_checksum": "",
+  "hierarchy_floor_plan": [
+    {
+      "url": "https://vrlab-public.ljcdn.com/release/vrcustomer/hierarchy_0_d01b8951-80a0-477e-9f16-02478f826277.png",
+      "index": 0,
+      "checksum": "45046a25a3169999b1716cfaee961d9b"
+    }
+  ],
+  "outline_floor_plan": [
+    {
+      "url": "https://vrlab-public.ljcdn.com/release/vrcustomer/outline_0_d01b8951-80a0-477e-9f16-02478f826277.png",
+      "index": 0,
+      "checksum": "c1d50156c222898f4006dc835a4335ef"
+    }
+  ],
+  "auto_floor_plan_url": "http://vrint.api.lianjia.com/floornet/auto3d-4CUTU9fYxkUBpxeE4ouuUE.json",
+  "auto_floor_plan_checksum": "7830193d323501b6285a79bf2a931419",
+  "status": 1,
+  "floor_plan_type": 0,
+  "editor_type": 0,
+  "panorama_url": "",
+  "from_type": "vr",
+  "create_time": "2020年09月16日",
+  "user_identifier": "",
+  "create_timestamp": "0",
+  "modify_timestamp": "0",
+  "is_ai_design": "0",
+  "work_code": "OWaK3jORjjqMVPy4",
+  "house_info": {
+    "relation_id": 9289825,
+    "city_id": 330100,
+    "source": "ALLIANCE",
+    "house_id": "0",
+    "house_code": "103110940900"
+  },
+  "model": {
+    "file_url": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/model/auto3d-4CUTU9fYxkUBpxeE4ouuUE.at3d",
+    "material_base_url": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/",
+    "material_textures": [
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_0.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_1.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_2.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_3.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_4.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_5.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_6.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_7.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_8.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_9.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_10.jpg",
+      "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/materials/texture_11.jpg"
+    ],
+    "virtual_wall_url": "",
+    "virtual_wall_checksum": "",
+    "score": 83.88,
+    "type": 0,
+    "tiles": [],
+    "layers": [],
+    "create_timestamp": "0",
+    "modify_timestamp": "0",
+    "work_code": "OWaK3jORjjqMVPy4"
+  },
+  "panorama": {
+    "count": 17,
+    "base_url": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/",
+    "type": 0,
+    "create_timestamp": "0",
+    "modify_timestamp": "0",
+    "list": [
+      {
+        "index": 0,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/0/c577fddf5382bd131ed257b0b18a67e6/0_b.jpg"
+      },
+      {
+        "index": 1,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/1/1750f23c8c2039a76997e207ed32dd0c/1_b.jpg"
+      },
+      {
+        "index": 2,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/2/d29411c17bffc75a4eeedb6181b08ebd/2_b.jpg"
+      },
+      {
+        "index": 3,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/3/641247207590999c7fa5562828c4002b/3_b.jpg"
+      },
+      {
+        "index": 4,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/4/1a78b7caa1f49a2f8dc5369fa832ea86/4_b.jpg"
+      },
+      {
+        "index": 5,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/5/e194e9d3e81c591be081a6e5fa3bdd6b/5_b.jpg"
+      },
+      {
+        "index": 6,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/6/37b3c0d988cc733268afe3dba3329e06/6_b.jpg"
+      },
+      {
+        "index": 7,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/7/264a835ba3290f6f70ce9bc60c366e84/7_b.jpg"
+      },
+      {
+        "index": 8,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/8/077a9e49ccdca36a977a0499674cc498/8_b.jpg"
+      },
+      {
+        "index": 9,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/9/cc1cb96f44ccda0c811765959b2c0825/9_b.jpg"
+      },
+      {
+        "index": 10,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/10/02978d2ffe15d5e8e4afbe5eb0e37268/10_b.jpg"
+      },
+      {
+        "index": 11,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/11/e9f64d40f1f41336534f0b5434ef4b74/11_b.jpg"
+      },
+      {
+        "index": 12,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/12/acbe8bb23569a2ad009f3e786737493a/12_b.jpg"
+      },
+      {
+        "index": 13,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/13/0746842ec7e19bc392a202787e4720d7/13_b.jpg"
+      },
+      {
+        "index": 14,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/14/45abdbe9b2fc1b64336ad521f1884975/14_b.jpg"
+      },
+      {
+        "index": 15,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/15/e929368b193eb39b66eef5ea802917f4/15_b.jpg"
+      },
+      {
+        "index": 16,
+        "up": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_u.jpg",
+        "down": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_d.jpg",
+        "left": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_l.jpg",
+        "right": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_r.jpg",
+        "front": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_f.jpg",
+        "back": "https://vrlab-public.ljcdn.com/release/auto3dhd/6cb434c7774a487c87d978619972f0ac/images/cube_2048/16/c5efd24e53c9a55cb362be4fcc3d3b92/16_b.jpg"
+      }
+    ],
+    "work_code": "OWaK3jORjjqMVPy4"
+  },
+  "observers": [
+    {
+      "visible_nodes": [1, 2, 3, 4, 8, 9],
+      "accessible_nodes": [1, 2, 3, 4, 8, 9],
+      "index": 0,
+      "status": 1,
+      "quaternion": {
+        "w": -0.9436109140360227,
+        "x": 0.009891335978037173,
+        "y": -0.3306973485177011,
+        "z": 0.011826911765598172
+      },
+      "standing_position": [
+        -0.5210400223731995, -1.0184958222303422, 0.9395179748535156
+      ],
+      "position": [
+        -0.5210400223731995, 0.08588270097970963, 0.9395179748535156
+      ],
+      "floor_index": 0,
+      "offset_point_count": 1888,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 2, 3, 4, 8, 9],
+      "accessible_nodes": [0, 2, 3, 4, 8, 9],
+      "index": 1,
+      "status": 1,
+      "quaternion": {
+        "w": -0.2988666977056617,
+        "x": 0.014604945982227453,
+        "y": -0.9541740194742566,
+        "z": -0.004165539446294179
+      },
+      "standing_position": [
+        -0.430867999792099, -1.018693745553837, -0.21202600002288818
+      ],
+      "position": [
+        -0.430867999792099, 0.0913655012845993, -0.21202600002288818
+      ],
+      "floor_index": 0,
+      "offset_point_count": 2109,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 1, 3, 4, 8, 9],
+      "accessible_nodes": [0, 1, 3, 4, 8, 9],
+      "index": 2,
+      "status": 1,
+      "quaternion": {
+        "w": 0.6500633749154561,
+        "x": 0.002200439048833582,
+        "y": -0.7596679173577534,
+        "z": -0.017815799032863552
+      },
+      "standing_position": [
+        -0.4173479974269867, -1.0189554016716051, -1.7382500171661377
+      ],
+      "position": [
+        -0.4173479974269867, 0.09141659736633301, -1.7382500171661377
+      ],
+      "floor_index": 0,
+      "offset_point_count": 2213,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 1, 2, 4, 5, 6, 8, 9],
+      "accessible_nodes": [0, 1, 2, 4, 5, 6, 8, 9],
+      "index": 3,
+      "status": 1,
+      "quaternion": {
+        "w": 0.6972801056613731,
+        "x": 0.0010631927372599399,
+        "y": -0.716637119022956,
+        "z": -0.015184049218231724
+      },
+      "standing_position": [
+        -0.08186250180006027, -1.019180526536109, -3.2449700832366943
+      ],
+      "position": [
+        -0.08186250180006027, 0.09242690354585648, -3.2449700832366943
+      ],
+      "floor_index": 0,
+      "offset_point_count": 3336,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 1, 2, 3, 5, 8, 9, 15],
+      "accessible_nodes": [0, 1, 2, 3, 5, 8, 9, 15],
+      "index": 4,
+      "status": 1,
+      "quaternion": {
+        "w": -0.9601177037124118,
+        "x": 0.012863287502361327,
+        "y": -0.27906332303608694,
+        "z": 0.01149744049024373
+      },
+      "standing_position": [
+        0.7641969919204712, -1.0193260818452483, -4.592700004577637
+      ],
+      "position": [0.7641969919204712, 0.0851598009467125, -4.592700004577637],
+      "floor_index": 0,
+      "offset_point_count": 3767,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [3, 4, 6, 8, 9, 15],
+      "accessible_nodes": [3, 4, 6, 8, 9, 15],
+      "index": 5,
+      "status": 1,
+      "quaternion": {
+        "w": -0.2753171275976208,
+        "x": 0.014228106047696056,
+        "y": -0.9611695094817035,
+        "z": -0.012296550355767114
+      },
+      "standing_position": [
+        1.2177200317382812, -1.0190521429700274, -3.3735599517822266
+      ],
+      "position": [
+        1.2177200317382812, 0.10269100219011307, -3.3735599517822266
+      ],
+      "floor_index": 0,
+      "offset_point_count": 6582,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [3, 5, 7],
+      "accessible_nodes": [3, 5, 7],
+      "index": 6,
+      "status": 1,
+      "quaternion": {
+        "w": 0.6493093407592367,
+        "x": 0.002755175914607858,
+        "y": -0.7603871468253106,
+        "z": -0.014183692829360503
+      },
+      "standing_position": [
+        2.7221999168395996, -1.018963163660067, -3.643899917602539
+      ],
+      "position": [2.7221999168395996, 0.0887719988822937, -3.643899917602539],
+      "floor_index": 0,
+      "offset_point_count": 381,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [6],
+      "accessible_nodes": [6],
+      "index": 7,
+      "status": 1,
+      "quaternion": {
+        "w": 0.48387463726943153,
+        "x": 0.006081320557274443,
+        "y": -0.8750163655794185,
+        "z": -0.013217874116274914
+      },
+      "standing_position": [
+        3.372649908065796, -1.0190185375543699, -4.358530044555664
+      ],
+      "position": [3.372649908065796, 0.0910634994506836, -4.358530044555664],
+      "floor_index": 0,
+      "offset_point_count": 148,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 1, 2, 3, 4, 5, 9, 11, 13, 15],
+      "accessible_nodes": [0, 1, 2, 3, 4, 5, 9, 11, 13, 15],
+      "index": 8,
+      "status": 1,
+      "quaternion": {
+        "w": 0.7469113275166552,
+        "x": 0.002629976714839977,
+        "y": -0.6647465800718857,
+        "z": -0.015117685481049786
+      },
+      "standing_position": [
+        0.9764009714126587, -1.0197257024225708, -7.189919948577881
+      ],
+      "position": [0.9764009714126587, 0.0951497033238411, -7.189919948577881],
+      "floor_index": 0,
+      "offset_point_count": 1197,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [0, 1, 2, 3, 4, 5, 8, 10, 11, 13, 15],
+      "accessible_nodes": [0, 1, 2, 3, 4, 5, 8, 10, 11, 13, 15],
+      "index": 9,
+      "status": 1,
+      "quaternion": {
+        "w": -0.9317483259922442,
+        "x": -0.0013636982143707646,
+        "y": 0.3628258792160757,
+        "z": 0.014162783525152014
+      },
+      "standing_position": [
+        1.273110032081604, -1.0184465834047272, -7.791009902954102
+      ],
+      "position": [1.273110032081604, 0.09224309772253036, -7.791009902954102],
+      "floor_index": 0,
+      "offset_point_count": 779,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [9],
+      "accessible_nodes": [9],
+      "index": 10,
+      "status": 1,
+      "quaternion": {
+        "w": -0.9971139208964916,
+        "x": -0.00027715455537302605,
+        "y": 0.07337751786405036,
+        "z": 0.019480415558997852
+      },
+      "standing_position": [
+        0.8384699821472168, -1.0200727178784474, -8.985529899597168
+      ],
+      "position": [0.8384699821472168, 0.0929139032959938, -8.985529899597168],
+      "floor_index": 0,
+      "offset_point_count": 147,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [8, 9, 12, 13],
+      "accessible_nodes": [8, 9, 12, 13],
+      "index": 11,
+      "status": 1,
+      "quaternion": {
+        "w": 0.8053311610607493,
+        "x": 0.011671362640761882,
+        "y": -0.5922810490678873,
+        "z": -0.022553860543645117
+      },
+      "standing_position": [
+        2.349989891052246, -1.0196473854324055, -7.4110798835754395
+      ],
+      "position": [2.349989891052246, 0.09381770342588425, -7.4110798835754395],
+      "floor_index": 0,
+      "offset_point_count": 807,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [11],
+      "accessible_nodes": [11],
+      "index": 12,
+      "status": 1,
+      "quaternion": {
+        "w": -0.9526194732684894,
+        "x": -0.0028257672573176467,
+        "y": 0.30356249975552874,
+        "z": 0.01892004824121531
+      },
+      "standing_position": [
+        2.387629985809326, -1.0198363817181801, -8.54104995727539
+      ],
+      "position": [2.387629985809326, 0.08740240335464478, -8.54104995727539],
+      "floor_index": 0,
+      "offset_point_count": 1302,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [8, 9, 11, 14],
+      "accessible_nodes": [8, 9, 11, 14],
+      "index": 13,
+      "status": 1,
+      "quaternion": {
+        "w": 0.8019466573060452,
+        "x": -0.004648051915466011,
+        "y": -0.597044737882389,
+        "z": -0.019938157300442894
+      },
+      "standing_position": [
+        4.325240135192871, -1.0194534267064141, -7.429259777069092
+      ],
+      "position": [4.325240135192871, 0.1083189994096756, -7.429259777069092],
+      "floor_index": 0,
+      "offset_point_count": 224,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [13],
+      "accessible_nodes": [13],
+      "index": 14,
+      "status": 1,
+      "quaternion": {
+        "w": -0.882716570343007,
+        "x": 0.0016486350049809318,
+        "y": 0.469601558046955,
+        "z": 0.016825993651149236
+      },
+      "standing_position": [
+        5.2071099281311035, -1.0195070816843095, -8.286399841308594
+      ],
+      "position": [5.2071099281311035, 0.09429089725017548, -8.286399841308594],
+      "floor_index": 0,
+      "offset_point_count": 677,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [4, 5, 8, 9, 16],
+      "accessible_nodes": [4, 5, 8, 9, 16],
+      "index": 15,
+      "status": 1,
+      "quaternion": {
+        "w": -0.35075460950428694,
+        "x": 0.01465496644760008,
+        "y": -0.9363227525794853,
+        "z": -0.00749240943890942
+      },
+      "standing_position": [
+        1.5654499530792236, -1.0187673813749327, -1.846459984779358
+      ],
+      "position": [1.5654499530792236, 0.1094290018081665, -1.846459984779358],
+      "floor_index": 0,
+      "offset_point_count": 1523,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    },
+    {
+      "visible_nodes": [15],
+      "accessible_nodes": [15],
+      "index": 16,
+      "status": 1,
+      "quaternion": {
+        "w": 0.2367332302844181,
+        "x": 0.008660752051072557,
+        "y": -0.9714655654614027,
+        "z": -0.011705920280825675
+      },
+      "standing_position": [
+        2.198319911956787, -1.0187035985351327, -1.6828199625015259
+      ],
+      "position": [2.198319911956787, 0.1076430007815361, -1.6828199625015259],
+      "floor_index": 0,
+      "offset_point_count": 234,
+      "device_info": [],
+      "create_timestamp": "0",
+      "modify_timestamp": "0",
+      "work_code": "OWaK3jORjjqMVPy4"
+    }
+  ],
+  "machine": {
+    "name": "黎曼",
+    "principle": "结构光",
+    "create_time": "2020年09月16日 16:10",
+    "create_user": "专业摄影师"
+  }
+}
