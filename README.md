@@ -42,6 +42,7 @@
    - 修改 model 中模型文件（file_url）和模型纹理（material_textures）路径
    - 修改 panorama 中图片路径
    - 修改 picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 路径
+5. 在 src/common/constant 中添加项目信息 projectKey
   
 ## 执行项目
 - package.json 中移除 `"type": "module",`
