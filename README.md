@@ -44,7 +44,6 @@
    - 修改 picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 路径
   
 ## 执行项目
-- 修改 index.tsx 里 `loadWork("./assets/jxls_2024.07.21/work.json");`，切换为需要运行的项目，读取对应的 work.json
 - package.json 中移除 `"type": "module",`
 - 项目根目录下执行 `npm run dev`
 
