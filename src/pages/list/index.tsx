@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { PROJECT_LIST } from "../../common/constant";
-import "./index.less";
+import styles from "./index.module.less";
 
 function List() {
   return (
-    <div className="div">
+    <div className={styles.div}>
       <h2>List Page</h2>
       {PROJECT_LIST.map((project) => (
         <Link to={`/${project}`} key={project}>
