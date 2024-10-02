@@ -1,5 +1,6 @@
 {
-  "name": "贝壳·如视 | 真实，如你所视",
+  "name": "郡西澜山",
+  "create_time": "2024-04-03 19:04:17",
   "picture_url": "assets/jxls_2024.04.03/preview_0.jpg",
   "initial": {
     "pano_index": 7,
@@ -25,7 +26,6 @@
       "checksum": "1a5d536239ff2f93d0e6cbb35e4379c2"
     }
   ],
-  "create_time": "2024年04月03日",
   "model": {
     "file_url": "assets/jxls_2024.04.03/model/auto3d.at3d",
     "material_textures": [

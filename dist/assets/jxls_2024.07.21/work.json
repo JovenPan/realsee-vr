@@ -1,4 +1,5 @@
 {
+  "name": "郡西澜山",
   "create_time": "2024-07-21 14:17:00",
   "initial": {
     "fov": 90,
@@ -19,7 +20,6 @@
     "tiles": null,
     "type": 0
   },
-  "name": "郡西澜山2024-07-21",
   "observers": [
     {
       "accessible_nodes": [1, 2, 3, 4, 5, 14, 15, 16, 17],

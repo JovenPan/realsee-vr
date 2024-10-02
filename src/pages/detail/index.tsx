@@ -45,12 +45,12 @@ const ModeChangePanel: React.FC = () => {
       icon: IconPanorama,
     },
     {
-      mode: Five.Mode.Model,
-      icon: IconModel,
-    },
-    {
       mode: Five.Mode.Floorplan,
       icon: IconFloorplan,
+    },
+    {
+      mode: Five.Mode.Model,
+      icon: IconModel,
     },
     {
       mode: Five.Mode.Topview,
@@ -97,6 +97,8 @@ const Detail: React.FC = () => {
   }, []);
 
   if (work) {
+    const { name, create_time } = JSON.parse(work.raw.works[0]);
+
     return (
       <FiveProvider
         initialWork={work}
@@ -104,6 +106,10 @@ const Detail: React.FC = () => {
       >
         <div className={styles.layout}>
           <Viewport />
+          <div className={styles.textWrapper}>
+            <span className={styles.name}>{name}</span>
+            <span className={styles.time}>{create_time}</span>
+          </div>
           <ModeChangePanel />
         </div>
       </FiveProvider>

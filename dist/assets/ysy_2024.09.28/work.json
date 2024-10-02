@@ -1,4 +1,5 @@
 {
+  "name": "雅仕苑",
   "create_time": "2024-09-28 15:31:35",
   "initial": {
     "fov": 90,
@@ -20,7 +21,6 @@
     "tiles": null,
     "type": 0
   },
-  "name": "雅仕苑2024.09.28",
   "observers": [
     {
       "accessible_nodes": [1, 2, 9, 16, 17],
