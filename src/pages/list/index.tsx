@@ -6,26 +6,28 @@ import styles from "./index.module.less";
 function List() {
   return (
     <div className={styles.layout}>
-      {PROJECT_LIST.map((project) => {
-        const work = require(`/assets/${project}/work.json`);
+      <div className={styles.pageWrapper}>
+        {PROJECT_LIST.map((project) => {
+          const work = require(`/assets/${project}/work.json`);
 
-        return (
-          <Link to={`/${project}`} key={project}>
-            <div
-              className={styles.preview}
-              style={{
-                backgroundImage: `url(${work.title_picture_url})`,
-              }}
-            >
-              <div className={styles.mask} />
-              <div className={styles.textWrapper}>
-                <span className={styles.name}>{work.name}</span>
-                <span className={styles.time}>{work.create_time}</span>
+          return (
+            <Link to={`/${project}`} key={project}>
+              <div
+                className={styles.preview}
+                style={{
+                  backgroundImage: `url(${work.title_picture_url})`,
+                }}
+              >
+                <div className={styles.mask} />
+                <div className={styles.textWrapper}>
+                  <span className={styles.name}>{work.name}</span>
+                  <span className={styles.time}>{work.create_time}</span>
+                </div>
               </div>
-            </div>
-          </Link>
-        );
-      })}
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 }
