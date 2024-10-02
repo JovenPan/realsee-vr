@@ -1,133 +1,76 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Five, Mode, State, Work, parseWork } from "@realsee/five";
+import { Five, Mode, Work, parseWork } from "@realsee/five";
 import {
   createFiveProvider,
   FiveCanvas,
   useFiveCurrentState,
-  useFiveWork,
 } from "@realsee/five/react";
 import { PROJECT_LIST } from "../../common/constant";
 import styles from "./index.module.less";
 
+import IconPanorama from "../../static/light/mode_panorama.svg";
+import IconModel from "../../static/light/mode_model.svg";
+import IconFloorplan from "../../static/light/mode_floorplan.svg";
+import IconTopview from "../../static/light/mode_topview.svg";
+
+const MODE_LABELS: Partial<Record<Mode, string>> = {
+  [Five.Mode.Panorama]: "全景游走",
+  [Five.Mode.Model]: "模型游走",
+  [Five.Mode.Floorplan]: "模型总览",
+  [Five.Mode.Topview]: "户型图",
+};
+
 const FiveProvider = createFiveProvider({
-  imageOptions: { size: 1024 },
+  imageOptions: { size: 2048 },
   onlyRenderIfNeeds: true,
 });
 
 const Viewport: React.FC = () => {
   return (
-    <div className="viewport">
-      <FiveCanvas width={512} height={512}></FiveCanvas>
-    </div>
+    <FiveCanvas
+      width={window.innerWidth}
+      height={window.innerHeight}
+    ></FiveCanvas>
   );
-};
-
-const Controller: React.FC = () => {
-  return (
-    <div className="controller">
-      <h1>Five Quick Start</h1>
-      <ModeChangePanel />
-      <CameraPanel />
-      <PanoPanel />
-    </div>
-  );
-};
-
-const MODE_LABELS: Partial<Record<Mode, string>> = {
-  [Five.Mode.Panorama]: "全景游走模式",
-  [Five.Mode.Floorplan]: "模型总览模式",
-  [Five.Mode.Topview]: "户型图模式",
-  [Five.Mode.Model]: "模型游走模式",
 };
 
 const ModeChangePanel: React.FC = () => {
   const [state, setState] = useFiveCurrentState();
 
   const changeMode = React.useCallback((mode: Mode) => setState({ mode }), []);
+  const arr = [
+    {
+      mode: Five.Mode.Panorama,
+      icon: IconPanorama,
+    },
+    {
+      mode: Five.Mode.Model,
+      icon: IconModel,
+    },
+    {
+      mode: Five.Mode.Floorplan,
+      icon: IconFloorplan,
+    },
+    {
+      mode: Five.Mode.Topview,
+      icon: IconTopview,
+    },
+  ];
   return (
-    <div className="panel">
-      <div className="label">模态切换:</div>
-      <div className="content">
-        <div>{MODE_LABELS[state.mode]}</div>
-        <div>
-          <button onClick={() => changeMode(Five.Mode.Panorama)}>
-            {MODE_LABELS[Five.Mode.Panorama]}
-          </button>
-          <button onClick={() => changeMode(Five.Mode.Floorplan)}>
-            {MODE_LABELS[Five.Mode.Floorplan]}
-          </button>
-          <button onClick={() => changeMode(Five.Mode.Topview)}>
-            {MODE_LABELS[Five.Mode.Topview]}
-          </button>
-          <button onClick={() => changeMode(Five.Mode.Model)}>
-            {MODE_LABELS[Five.Mode.Model]}
-          </button>
+    <div className={styles.controller}>
+      {arr.map((item) => (
+        <div
+          key={item.mode}
+          className={`${styles.btn} ${
+            state.mode === item.mode ? styles.active : ""
+          }`}
+          onClick={() => changeMode(item.mode)}
+        >
+          <item.icon className={styles.icon} width={24} height={24} />
+          {MODE_LABELS[item.mode]}
         </div>
-      </div>
-    </div>
-  );
-};
-
-const CameraPanel: React.FC = () => {
-  const [state, setState] = useFiveCurrentState();
-  return (
-    <div className="panel">
-      <div className="label">相机控制:</div>
-      <div className="content">
-        <div>水平角: {state.longitude.toFixed(2)}（弧度）</div>
-        <div>俯仰角: {state.latitude.toFixed(2)}（弧度）</div>
-        <div>可视角度: {state.fov.toFixed(0)}（角度）</div>
-        <div>
-          <button
-            onMouseDown={() => setState({ longitude: state.longitude + 0.01 })}
-          >
-            向左
-          </button>
-          <button
-            onMouseDown={() => setState({ latitude: state.latitude - 0.01 })}
-          >
-            向上
-          </button>
-          <button
-            onMouseDown={() => setState({ latitude: state.latitude + 0.01 })}
-          >
-            向下
-          </button>
-          <button
-            onMouseDown={() => setState({ longitude: state.longitude - 0.01 })}
-          >
-            向右
-          </button>
-          <button onMouseDown={() => setState({ fov: state.fov + 1 })}>
-            可视角度+
-          </button>
-          <button onMouseDown={() => setState({ fov: state.fov - 1 })}>
-            可视角度-
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const PanoPanel: React.FC = () => {
-  const [work] = useFiveWork();
-  const [currentState, setState] = useFiveCurrentState();
-  const [panos, setPanos] = React.useState<State[]>(() => [currentState]);
-  return (
-    <div className="panel">
-      <div className="label">存储快照:</div>
-      <div className="content">
-        {panos.map((state, index) => {
-          return (
-            <button key={index} onClick={() => setState(state)}>
-              快照{index + 1}
-            </button>
-          );
-        })}
-        <button onClick={() => setPanos(panos.concat(currentState))}>+</button>
-      </div>
+      ))}
     </div>
   );
 };
@@ -159,13 +102,14 @@ const Detail: React.FC = () => {
         initialWork={work}
         ref={(ref) => Object.assign(window, { five: ref?.five })}
       >
-        <div className={`layout ${styles.div}`}>
+        <div className={styles.layout}>
           <Viewport />
-          <Controller />
+          <ModeChangePanel />
         </div>
       </FiveProvider>
     );
   }
+
   return null;
 };
 

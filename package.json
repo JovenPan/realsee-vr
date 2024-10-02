@@ -9,6 +9,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
     "axios": "^1.7.2",
