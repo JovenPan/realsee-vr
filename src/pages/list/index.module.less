@@ -1,3 +1,7 @@
+body {
+  background-color: #eee;
+}
+
 .layout {
   width: 100%;
   margin-bottom: 100px;
@@ -7,52 +11,90 @@
   .pageWrapper {
     width: 100%;
     max-width: 500px;
-    padding: 0 20px;
+    // padding: 0 20px;
 
-    .preview {
-      position: relative;
+    .group {
       width: 100%;
-      height: 150px;
-      margin-top: 20px;
+      margin: 40px 0;
+      padding: 20px 20px 30px 20px;
       border-radius: 10px;
       box-sizing: border-box;
-      overflow: hidden;
-      background-size: cover;
-      background-position: center;
+      background-color: #fff;
 
-      .mask {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-          to top,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0)
-        );
-      }
-
-      .textWrapper {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 40px;
+      .titleWrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        .name {
-          margin-left: 10px;
-          font-size: 15px;
-          font-weight: 500;
-          color: #fff;
+        .title {
+          font-size: 16px;
+          font-weight: 700;
+          color: #333;
         }
-
         .time {
-          margin-right: 10px;
           font-size: 12px;
           font-weight: 400;
-          color: #eee;
+          color: #999;
+        }
+      }
+
+      .item {
+        position: relative;
+        width: 100%;
+        height: 120px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+
+        .mask {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0)
+          );
+        }
+
+        .icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 24px;
+          height: 24px;
+          background-size: contain;
+          background-image: url(../../static/icon-vr.png);
+          /* opacity: 0.9; */
+        }
+
+        .textWrapper {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 40px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .name {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #fff;
+          }
+
+          .time {
+            margin-right: 10px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #eee;
+          }
         }
       }
     }

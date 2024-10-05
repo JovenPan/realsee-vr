@@ -7,24 +7,34 @@ function List() {
   return (
     <div className={styles.layout}>
       <div className={styles.pageWrapper}>
-        {PROJECT_LIST.map((project) => {
-          const work = require(`/assets/${project}/work.json`);
-
+        {PROJECT_LIST.map((group) => {
           return (
-            <Link to={`/${project}`} key={project}>
-              <div
-                className={styles.preview}
-                style={{
-                  backgroundImage: `url(${work.title_picture_url})`,
-                }}
-              >
-                <div className={styles.mask} />
-                <div className={styles.textWrapper}>
-                  <span className={styles.name}>{work.name}</span>
-                  <span className={styles.time}>{work.create_time}</span>
-                </div>
+            <div className={styles.group} key={group.title}>
+              <div className={styles.titleWrapper}>
+                <span className={styles.title}>{group.title}</span>
               </div>
-            </Link>
+              {group.items.map((project) => {
+                const work = require(`/assets/${project}/work.json`);
+
+                return (
+                  <Link to={`/${project}`} key={project}>
+                    <div
+                      className={styles.item}
+                      style={{
+                        backgroundImage: `url(${work.title_picture_url})`,
+                      }}
+                    >
+                      <div className={styles.mask} />
+                      <div className={styles.icon}></div>
+                      <div className={styles.textWrapper}>
+                        <span className={styles.name}>{work.description}</span>
+                        <span className={styles.time}>{work.create_time}</span>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           );
         })}
       </div>

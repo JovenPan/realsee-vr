@@ -88,7 +88,12 @@ const Detail: React.FC = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    if (PROJECT_LIST.indexOf(projectKey) == -1) {
+    const combinedItems = PROJECT_LIST.reduce((acc: string[], item) => {
+      return acc.concat(item.items);
+    }, []);
+
+    if (combinedItems.indexOf(projectKey) == -1) {
+      // 项目不存在，跳转到 list 页
       navigate("/");
       return;
     }

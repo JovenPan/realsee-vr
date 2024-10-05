@@ -1,5 +1,6 @@
 {
   "name": "雅仕苑",
+  "description": "买房时",
   "create_time": "2020-09-16 16:10:00",
   "picture_url": "assets/ysy_2020.09.16/preview_0.jpg",
   "initial": {
@@ -29,18 +30,18 @@
   "model": {
     "file_url": "assets/ysy_2020.09.16/model/auto3d.at3d",
     "material_textures": [
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_0.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_1.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_2.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_3.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_4.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_5.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_6.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_7.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_8.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_9.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_10.jpg",
-      "assets/ysy_2020.09.16/model/texture_0.jpg/texture_11.jpg"
+      "assets/ysy_2020.09.16/model/texture_0.jpg",
+      "assets/ysy_2020.09.16/model/texture_1.jpg",
+      "assets/ysy_2020.09.16/model/texture_2.jpg",
+      "assets/ysy_2020.09.16/model/texture_3.jpg",
+      "assets/ysy_2020.09.16/model/texture_4.jpg",
+      "assets/ysy_2020.09.16/model/texture_5.jpg",
+      "assets/ysy_2020.09.16/model/texture_6.jpg",
+      "assets/ysy_2020.09.16/model/texture_7.jpg",
+      "assets/ysy_2020.09.16/model/texture_8.jpg",
+      "assets/ysy_2020.09.16/model/texture_9.jpg",
+      "assets/ysy_2020.09.16/model/texture_10.jpg",
+      "assets/ysy_2020.09.16/model/texture_11.jpg"
     ],
     "virtual_wall_url": "",
     "virtual_wall_checksum": "",
