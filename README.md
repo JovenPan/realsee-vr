@@ -36,18 +36,25 @@
    - 更新 download.js 里项目地址
    - package.json 中添加 `"type": "module",`
    - 在项目目录（如 jxls_2024.04.03）下执行 `node ./download.js`，自动创建 panorama、model 目录并下载相关资源
-4. 修改 work.json 内容
+4. 手动创建 original 目录，拖入 preview_0/1.jpg 原图，利用 https://tinypng.com/ 压缩 preview_0/1.jpg
+5. 修改 work.json 内容
    - 只保留 create_time、initial、model、name、observers、panorama、picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 字段
    - 去掉 model.material_base_url 字段
    - 修改 model 中模型文件（file_url）和模型纹理（material_textures）路径
    - 去掉 panorama.base_url 字段
    - 修改 panorama 中图片路径
    - 修改 picture_url、title_picture_url、hierarchy_floor_plan、outline_floor_plan 路径
-5. 在 src/common/constant 中添加项目信息 projectKey
+6. 在 src/common/constant 中添加项目信息 projectKey
   
 ## 执行项目
 - package.json 中移除 `"type": "module",`
 - 项目根目录下执行 `npm run dev`
+
+## 提交项目
+- 项目根目录下执行 `npm run build`
+- git 提交代码，github 自动构建，访问 https://jovenpan.github.io/realsee-vr/dist/ 即为最新版本
+- 将 dist 目录内容拷贝至 site-colletion/realsee-vr 目录下，git 提交代码，github 自动构建 ，访问 https://jovenpan.github.io/site-colletion/realsee-vr/ 即为最新版本
+- 将 site-colletion 整体更新至服务器
 
 ## 关于 work.json
 [work 的使用限制](https://developers.realsee.com/docs/#/docs/five/web/tutorial/vanilla/1.displaying-work?id=work-%e7%9a%84%e4%bd%bf%e7%94%a8%e9%99%90%e5%88%b6)
