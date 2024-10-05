@@ -44,7 +44,7 @@ const Loading: React.FC<ILoadingProps> = (props) => {
     setLoadingProgress(progress)
   );
 
-  return loadingProgress == 1 || !loading ? null : (
+  return loading ? (
     <div
       className={styles.loading}
       style={{
@@ -57,7 +57,7 @@ const Loading: React.FC<ILoadingProps> = (props) => {
         {`${(loadingProgress * 100).toFixed(0)}%`}
       </div>
     </div>
-  );
+  ) : null;
 };
 
 const ModeChangePanel: React.FC = () => {
