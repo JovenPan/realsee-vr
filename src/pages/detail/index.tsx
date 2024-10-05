@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Five, Mode } from "@realsee/five";
 import {
   createFiveProvider,
   FiveCanvas,
   useFiveCurrentState,
+  useFiveEventCallback,
 } from "@realsee/five/react";
 import { useFetchWork } from "./hooks/useFetchWork";
 import { useWindowDimensions } from "./hooks/useWindowDimensions";
@@ -15,6 +16,10 @@ import IconPanorama from "../../static/light/mode_panorama.svg";
 import IconModel from "../../static/light/mode_model.svg";
 import IconFloorplan from "../../static/light/mode_floorplan.svg";
 import IconTopview from "../../static/light/mode_topview.svg";
+
+interface ILoadingProps {
+  preview: string;
+}
 
 const MODE_LABELS: Partial<Record<Mode, string>> = {
   [Five.Mode.Panorama]: "全景游走",
@@ -27,6 +32,33 @@ const FiveProvider = createFiveProvider({
   imageOptions: { size: 2048 },
   onlyRenderIfNeeds: true,
 });
+
+const Loading: React.FC<ILoadingProps> = (props) => {
+  const [loading, setLoading] = useState<boolean>(true);
+  const [loadingProgress, setLoadingProgress] = React.useState<number>(0.0);
+  const size = useWindowDimensions();
+
+  useFiveEventCallback("willLoad", () => setLoading(true));
+  useFiveEventCallback("modelLoaded", () => setLoading(false));
+  useFiveEventCallback("textureLoading", (progress) =>
+    setLoadingProgress(progress)
+  );
+
+  return loadingProgress == 1 || !loading ? null : (
+    <div
+      className={styles.loading}
+      style={{
+        backgroundImage: `url(${props.preview})`,
+        width: `${size.width}px`,
+        height: `${size.height}px`,
+      }}
+    >
+      <div className={styles.progress}>
+        {`${(loadingProgress * 100).toFixed(0)}%`}
+      </div>
+    </div>
+  );
+};
 
 const ModeChangePanel: React.FC = () => {
   const [state, setState] = useFiveCurrentState();
@@ -86,7 +118,9 @@ const Detail: React.FC = () => {
   const size = useWindowDimensions();
 
   if (work) {
-    const { name, create_time } = JSON.parse(work.raw.works[0]);
+    const { name, description, create_time, picture_url } = JSON.parse(
+      work.raw.works[0]
+    );
 
     return (
       <FiveProvider
@@ -95,8 +129,11 @@ const Detail: React.FC = () => {
       >
         <div className={styles.layout}>
           <FiveCanvas {...size}></FiveCanvas>
+          <Loading preview={picture_url} />
           <div className={styles.textWrapper}>
-            <span className={styles.name}>{name}</span>
+            <span className={styles.name}>
+              {name} {description}
+            </span>
             <span className={styles.time}>{create_time}</span>
           </div>
           <ModeChangePanel />

@@ -1,6 +1,32 @@
 .layout {
   position: relative;
 
+  .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .progress {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 42px;
+      text-align: center;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
   .controller {
     width: 100%;
     display: flex;
