@@ -54,7 +54,7 @@ const Loading: React.FC<ILoadingProps> = (props) => {
       }}
     >
       <div className={styles.progress}>
-        {`${(loadingProgress * 100).toFixed(0)}%`}
+        {`${Math.floor(loadingProgress * 100)}%`}
       </div>
     </div>
   ) : null;
